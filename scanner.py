@@ -24,7 +24,7 @@ def port_scan(host, ports):
         except socket.error:
             pass
         else:
-            print(f"{host}: {port} is active.")
+            print(f"{host}: {port} is active. ")
         s.close()
     print(f"The program scanned {len(ports)} ports.")
 
